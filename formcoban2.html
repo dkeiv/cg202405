@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/formcoban2.css">
+</head>
+<body>
+<form action="#" method="post">
+    <table>
+        <tr> <td colspan="2" id="tableHeader">Dang ki hoc vien</td></tr>
+        <tr>
+            <td>
+                <label for="name">Ho va ten</label>
+            </td>
+            <td>
+                <label><input id="name" type="text" name="name"></label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="birthday">Ngay sinh</label>
+            </td>
+            <td>
+                <label><input id="birthday" type="text" name="birthday"></label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="gender">So thich</label>
+            </td>
+            <td id="gender">
+                <label>
+                    <input type="radio" value="0" name="gender">
+                </label>
+                <label>Nam</label>
+                <label>
+                    <input type="radio" value="1" name="gender">
+                </label>
+                <label>Nu</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="address">Dia chi</label>
+            </td>
+            <td>
+                <input type="text" name="address" id="address" height="20px">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="class">Lop</label>
+            </td>
+            <td>
+                <select id="class">
+                    <option value="" disabled selected>- Chon lop -</option>
+                    <option value="1">Lop 1</option>
+                    <option value="2">Lop 2</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">Email</label>
+            </td>
+            <td>
+                <input type="text" name="email" id="email">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="phone">Dien thoai</label>
+            </td>
+            <td>
+                <input type="text" name="phone" id="phone">
+            </td>
+        </tr>
+        <tr>
+            <td class="btn-container" colspan="2">
+                <label><input type="submit" value="Gui thong tin"></label>
+                <label><input type="reset" value="Nhap lai"></label>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
