@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form co ban</title>
+    <style>
+        html {
+            font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h3>Order form</h3>
+    <form method="get" action="taoformcoban.html" id="buyForm">
+        <label for="buy" >What would you like to buy?</label>
+        <select name="buy" id="buy" form="buyForm">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+        </select>
+
+        <label>How many?</label>
+        <label><input type="radio" value="1">1 - $10</label>
+        <label><input type="radio" value="2">2 - $20</label>
+        <label><input type="radio" value="3">1 - $25</label>
+
+        <h4>Name <span>*</span></h4>
+        <label><input placeholder="FirstName" type="text"></label>
+        <label><input placeholder="LastName" type="text"></label>
+
+        <h4>Email</h4>
+        <label><input placeholder="" type="text"></label>
+
+        <h4>Phone</h4>
+        <label><input placeholder="" type="text" size="5"></label>
+        <span>-</span>
+        <label><input placeholder="" type="text" size="5"></label>
+        <span>-</span>
+        <label><input placeholder="" type="text" size="5"></label>
+
+        <input type="button" value="Submit">
+    </form>
+</body>
+</html>
