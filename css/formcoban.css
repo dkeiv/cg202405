@@ -1,0 +1,11 @@
+form {
+    width: 100vw;
+}
+table caption {
+    background: #ff4c00;
+    color: #dddddd;
+}
+
+#hobby table {
+    color: #ff4c00;
+}
