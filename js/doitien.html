@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>doi tien</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Amount</td>
+            <td><label for="fromCurrency">From Currency</label></td>
+            <td><label for="toCurrency">To Currency</label></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <input autocomplete="false" id="amount" name="amount" type="text">
+            </td>
+            <td>
+                <select name="fromCurrency" id="fromCurrency">
+                    <option value="vnd">VND</option>
+                    <option value="usd">USD</option>
+                </select>
+            </td>
+
+            <td>
+                <select name="toCurrency" id="toCurrency">
+                    <option value="vnd">VND</option>
+                    <option value="usd">USD</option>
+                </select>
+            </td>
+            <td>
+                <button onclick="convertHandler()">Convert</button>
+            </td>
+        </tr>
+    </table>
+<span id="displayResult"></span>
+</body>
+<script src="doitien.js"></script>
+</html>
